@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List Application</title>
+  <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>To-Do List Application</h1>
+
+    <!-- Form to add a new task -->
+    <form id="add-item-form">
+      <input type="text" id="item-input" placeholder="Enter a new task" required />
+      <button type="submit">Add Task</button>
+    </form>
+
+    <!-- The container for the to-do list -->
+    <ul id="todo-list"></ul>
+
+    <!-- Button to clear all tasks -->
+    <button id="clear-items-btn">Clear All Items</button>
+  </div>
+
+  <!-- Linking your main TypeScript file -->
+  <script type="module" src="./src/main.ts"></script>
+</body>
+</html>
